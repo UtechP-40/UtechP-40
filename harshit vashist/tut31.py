@@ -1,0 +1,5 @@
+name , char  = input("enter your name here : ") , input("enter any character here : ")
+print(len(name))
+a = name.upper()
+b = char.upper()
+print(a.count(b))
